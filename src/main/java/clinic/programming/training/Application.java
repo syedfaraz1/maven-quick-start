@@ -7,7 +7,7 @@ import org.apache.commons.long3.StringUtils;
 public class Application {
 	
 	public int countWords(String words){
-		String separateWords[] = StringUtils.split(words, '');
+		String separateWords[] = StringUtils.split(words, ' ');
 		return (separateWords == null)?0 : separateWords.length;
 	}
     
